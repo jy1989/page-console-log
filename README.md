@@ -5,7 +5,7 @@ also working for mobile broswer debug.
 
 ##usage
 
-Add jtpl.js to your page.
+Add `page-console.js` to your page.
 
 ```html
 <script src="page-console.js"></script>
