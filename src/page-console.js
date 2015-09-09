@@ -1,10 +1,4 @@
-/* ===========================================================
- * page-console.js.js
- * ===========================================================
- * https://github.com/jy1989/page-console-log
- * ========================================================== */
-;
-(function () {
+;(function () {
 
 
     var iDiv = document.createElement('div');
@@ -38,13 +32,13 @@
         var oldMethod = arguments[0];
         var consoleType = arguments[1];
         var color = '#f0f0f0';
-        if (consoleType == 'debug') {
+        if (consoleType === 'debug') {
             color = '#ADD8E6';
-        } else if (consoleType == 'info') {
+        } else if (consoleType === 'info') {
             color = 'green';
-        } else if (consoleType == 'warn') {
+        } else if (consoleType === 'warn') {
             color = 'yellow';
-        } else if (consoleType == 'error') {
+        } else if (consoleType === 'error') {
             color = 'red';
         }
         var args = '';
@@ -55,18 +49,18 @@
             } catch (ex) {
                 r = ex;
             }
-            args += '<div style="padding-left:10px;margin:5px;">' + r + (i != arguments.length - 1 ? "," : "") + '</div>';
+            args += '<div style="padding-left:10px;margin:5px;">' + r + (i !== arguments.length - 1 ? "," : "") + '</div>';
         }
 
 
         var p = '<div style="color:' + color + ';">console.' + consoleType + ':</div>';
         iDiv.innerHTML = '<div style="color:' + color + ';border-bottom:1px solid #aaa;padding:8px;">' + p + args + '' + '</div>' + iDiv.innerHTML;
 
-        var args = Array.prototype.slice.call(arguments);
-        args.shift();
-        args.shift();
+        var args2 = Array.prototype.slice.call(arguments);
+        args2.shift();
+        args2.shift();
 
-        oldMethod.apply(console, args);
+        oldMethod.apply(console, args2);
     }
 
 
