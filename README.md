@@ -1,6 +1,7 @@
 # page-console.js
 show the console at the top of the page
 
+
 ##usage
 
 Add jtpl.js to your page.
