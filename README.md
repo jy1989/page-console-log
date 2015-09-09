@@ -10,7 +10,7 @@ Add jtpl.js to your page.
 <script src="page-console.js"></script>
 ```
 
-Then done! 
+####No code anymore! 
 
 Also working for mobile broswer debug.
 
