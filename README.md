@@ -1,6 +1,7 @@
 # page-console.js
-show the console at the top of the page
+It will insert a debug div before your `html` element, 
 
+also working for mobile broswer debug.
 
 ##usage
 
@@ -12,7 +13,9 @@ Add jtpl.js to your page.
 
 ####No code anymore! 
 
-Also working for mobile broswer debug.
 
 
-The demo <a href="http://jy1989.github.io" target="_blank">page-console.js</a>
+
+#####demo 
+
+<a href="http://jy1989.github.io" target="_blank">page-console.js</a>
