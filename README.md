@@ -11,7 +11,7 @@ Add jtpl.js to your page.
 
 Then done! 
 
-Also working for mobile broswer to debug.
+Also working for mobile broswer debug.
 
 
-The demo [page-console.js](http://jy1989.github.io)
+The demo <a href="http://jy1989.github.io" target="_blank">page-console.js</a>
