@@ -14,8 +14,3 @@ Add `page-console.js` to your page.
 ####No code anymore! 
 
 
-
-
-#####demo 
-
-<a href="http://jy1989.github.io" target="_blank">page-console.js</a>
